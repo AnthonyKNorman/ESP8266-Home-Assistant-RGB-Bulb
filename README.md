@@ -10,3 +10,6 @@ I managed to flash Micropython onto the TYWE3S board. I then found that each of 
 This code exposes that ability via an MQTT server, which, in turn, means I can use Home Assistant to control the bulb.
 
 You can see my screenshot from HA in the discussion link.
+
+tywe3s.py contains the main code. You need to edit this to set your wifi credentials and the address of your MQTT server.
+main.py just menas the tywe3s.py autoruns at power up.
